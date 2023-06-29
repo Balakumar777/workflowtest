@@ -1,4 +1,4 @@
 const a = 7/0;
-if(!isNaN(a))
+if(isNaN(a))
   throw new Error('Failed');
 console.log(a)
